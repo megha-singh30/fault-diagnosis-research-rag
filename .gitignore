@@ -1,0 +1,14 @@
+# Copyrighted papers never go public
+papers/*
+!papers/.gitkeep
+!papers/open_access/
+# Vector store holds chunks of copyrighted text too
+chroma_db/
+# Secrets
+.env
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
