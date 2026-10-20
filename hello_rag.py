@@ -111,8 +111,7 @@ def generate(prompt):
     client = anthropic.Anthropic()
     response = client.messages.create(
         model=LLM_MODEL,
-        max_tokens=600,
-        temperature=0,                                 # same question -> (nearly) same answer; matters for eval later
+        max_tokens=600,                               # same question -> (nearly) same answer; matters for eval later
         messages=[{"role": "user", "content": prompt}],
     )
     return response.content[0].text                    # content is a list of blocks; first is the text
