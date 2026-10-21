@@ -15,3 +15,10 @@ __pycache__/
 venv/
 .ipynb_checkpoints/
 .venv-faultlit/
+AGENTS.md
+CLAUDE.md
+*.ipynb
+# Notebook experiments 
+experiment/
+# Any venv name
+.venv*/
