@@ -1,0 +1,3 @@
+{"id": "q001", "question": "Which time-frequency method is proposed for stator fault detection?",
+ "paper": "singh2020_tim", "relevant_pages": [1, 2, 4],
+ "note": "ST proposed; p1 abstract, p2 contributions, p4 method"}

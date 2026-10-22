@@ -1,5 +1,7 @@
 # PROGRESS — Fault-Diagnosis Paper RAG
+S1 ✅ Single-paper RAG runs end to end; found faithful-but-wrong answer (cited vs proposed methods); abstract chunk at rank 10 due to header noise; gold row q001 created.
 
+Each session = Part A (explore in experiment/S{N}_.ipynb) → Part B (promote working code to src/.py). Done = Part B runs
 ## Session tracker
 | # | Session | Status | One-line result |
 |---|---------|--------|-----------------|
@@ -23,3 +25,5 @@
 
 ## Open questions / decisions
 - Which paper goes first? (pick one you know well, two-column IEEE, ideally open access)
+
+
